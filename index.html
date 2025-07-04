@@ -4,25 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
     <title>download</title>
 </head>
 <body>
+    <div class="content">
+        <label  for="search">قم بالبحث على ما تريده هنا </label>
+        <input type="text" id="search" onkeyup="filterOption()" placeholder="search">
+        
+    </div>
     
     <div class="container">
-        <img src="image/KHALID GAMAL.jpg" alt="">
+        <img id="image" src="image/KHALID GAMAL.jpg" alt="">
+        <h2>المهندس خالد جمال</h2>
+        <div><i class="fas fa-star"> <span>2</span></i> | <i class="fas fa-shield-alt"><span>2</span></i> | <i class="fas fa-download"><span>2</span></i> | <i class="far fa-comment"><span>2</span></i>   </div>
         <select name="" id="select1" onchange="khalid()">
             <optgroup>
                 <option value="">--اختر--</option>
-                <option value="download-manager">تفعيل داونلود مانيجر</option>
+                <option value="download-manager">برنامج تفعيل داونلود مانجر</option>
                 <option value="windows1">نسخة ويندوز للتحميل</option>
                 <option value="windows2">برنامج فرد نسخة ويندوز</option>
+                <option value="anaconda">اناكوندا</option>
+                <option value="down-mange">تطبيق داونلود مانجر</option>
+                <option value="whatsapp">تطبيق واتس اب</option>
+                <option value="OBS">تطبيق تسجيل الشاشه</option>
+                <option value="microsoft">نسخة مايكروسوفت اوفس 2010</option>
+                <option value="xampp">application xampp</option>
+                <option value="dev">application dev</option>
+                <option value="android-studio">android-studio</option>
+                <option value="git">git</option>
+                <option value="mysql">mysql</option>
+                <option value="consu-internet">حل لمشكلة استهلاك الانترنت </option>
             </optgroup>
         </select>
 
         <div id="app" class="app">
             <a id="manager-app"  href="application/Reset (Fixed).exe" >download</a>
+
             <a id="windows-version" href="https://drive.google.com/uc?export=download&id=1LPJ-UgqsCAGsTgysMGJCdO2aMKVSVONG">download</a>
             <a id="windows-app" href="application/Windows 10/rufus-4.6.exe">download</a>
+            <a id="anaconda1" href="application/Anaconda3-2024.06-1-Windows-x86_64.exe">download</a>
+            <a id="downmanage" href="application/idman642build31.exe">download</a>
+            <a id="whats" href="application/WhatsApp Installer.exe">download</a>
+            <a id="obs" href="application/OBS-Studio-31.0.1-Windows-Installer.exe">download</a>
+            <a id="xampp" href="application/OBS-Studio-31.0.1-Windows-Installer.exe">download</a>
+            <a id="dev" href="application/Dev-Cpp 5.11 TDM-GCC 4.9.2 Setup.exe">download</a>
+            <a id="microsoft" href="application/microsoft-office-professional-plus-2010-beta.zip">download</a>
+            <a id="android-studio" href="application/android-studio-2023.1.1.28-windows.exe">download</a>
+            <a id="git" href="application/Git-2.49.0-64-bit_2.exe">download</a>
+            <a id="mysql" href="application/mysql-9.2.0-winx64.msi">download</a>
+            <a id="consu-internet" href="application/حل لمشكلة استهلاك النت.rar">download</a>
         </div>
 
 
